@@ -1,0 +1,2 @@
+class PoctsController < ApplicationController
+end
