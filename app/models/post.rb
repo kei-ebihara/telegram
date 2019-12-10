@@ -6,7 +6,7 @@ class Post < ApplicationRecord
 
   def new_image_check
     if new_image.present?
-      unless !new_image.content_type.in?(%w(image/jpeg image/png))
+      unless new_image.content_type.in?(%w(image/jpeg image/png))
         errors.add(:new_image, 'にはjpegまたはpngファイルを添付してください')
       end
     else
