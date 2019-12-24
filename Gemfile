@@ -41,6 +41,9 @@ gem 'jquery-rails'
 gem 'font-awesome-sass'
 gem 'mini_magick'
 gem 'devise'
+gem 'rails-i18n'
+gem 'devise-i18n'
+gem 'kaminari'
 
 
 group :development, :test do
