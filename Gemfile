@@ -67,6 +67,9 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'annotate'
+  gem 'rails_admin'
+  gem 'rails_admin-i18n'
+  gem 'devise-bootstrap-views', '~> 1.0'
 end
 
 group :test do
