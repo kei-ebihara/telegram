@@ -3,7 +3,6 @@ class PostsController < ApplicationController
   before_action :set_post, only: [:edit, :update, :destroy]
 
   def index
-    @posts = Post.with_attached_image.order(created_at: :desc).page(params[:page]).per(5).includes(user: [avatar_attachment: :blob],comments: [user: [avatar_attachment: :blob]])
     @comment = Comment.new
   end
 
@@ -57,4 +56,5 @@ class PostsController < ApplicationController
   def set_post
     @post = Post.find(params[:id])
   end
+  
 end

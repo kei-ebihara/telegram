@@ -44,6 +44,7 @@ gem 'devise'
 gem 'rails-i18n'
 gem 'devise-i18n'
 gem 'kaminari'
+gem 'ransack'
 
 
 group :development, :test do
