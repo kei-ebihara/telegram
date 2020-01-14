@@ -40,3 +40,21 @@ nav.pagination {
   border: 1px solid #dcdcdc;
   background-color: #f8f8ff;
 }
+
+.like:hover {
+  text-decoration: none;
+}
+.like{
+  color: red;
+  text-decoration: none;
+}
+
+.unlike:hover {
+  text-decoration: none;
+}
+
+.unlike{
+  color: gray;
+  text-decoration: none;
+  display: inline;
+}
